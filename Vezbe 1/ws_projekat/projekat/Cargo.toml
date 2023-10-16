@@ -1,0 +1,11 @@
+[package]
+name = "projekat"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+# dodamo biblioteku koja se nalazi u istom radnom okviru kao i projekat
+biblioteka = {path = "../biblioteka"}
+rand = "0.8.5" # ova zavisnost je dodata pomocu add komande, tj komandom cargo add rand@0.8.5

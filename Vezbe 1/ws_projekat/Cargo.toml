@@ -1,0 +1,4 @@
+# U okviru workspace-a postoji toml fajl u kojem definisemo koji sve projekti i biblioteke se nalaze u radnom prostoru
+# Clanove workspace-a definisemo u sekciji workspace tako sto dodamo atribut members i navedemo nazive projekata
+[workspace]
+members = ["projekat", "biblioteka"]
